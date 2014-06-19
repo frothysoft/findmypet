@@ -9,9 +9,19 @@
 /* Begin PBXBuildFile section */
 		AE077F2519534412003BFD8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE077F1819534412003BFD8C /* Images.xcassets */; };
 		AE077F2819534412003BFD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F1E19534412003BFD8C /* AppDelegate.swift */; };
-		AE077F2919534412003BFD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F2019534412003BFD8C /* ViewController.swift */; };
+		AE077F2919534412003BFD8C /* LostPetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F2019534412003BFD8C /* LostPetsViewController.swift */; };
+		AE53350C19535FB100B94202 /* LostPetsFakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53350B19535FB100B94202 /* LostPetsFakeData.swift */; };
+		AE53350E19535FEB00B94202 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53350D19535FEB00B94202 /* Pet.swift */; };
+		AE53351019536B9300B94202 /* FakeLostPetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53350F19536B9300B94202 /* FakeLostPetsAPI.swift */; };
+		AE5335181953749600B94202 /* fido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335121953749600B94202 /* fido.jpg */; };
+		AE5335191953749600B94202 /* giraffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335131953749600B94202 /* giraffe.jpg */; };
+		AE53351A1953749600B94202 /* hissy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335141953749600B94202 /* hissy.jpg */; };
+		AE53351B1953749600B94202 /* saxophone.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AE5335151953749600B94202 /* saxophone.JPG */; };
+		AE53351C1953749600B94202 /* saxophone2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335161953749600B94202 /* saxophone2.jpg */; };
+		AE53351D1953749600B94202 /* trix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335171953749600B94202 /* trix.jpg */; };
 		AE854EC9195344F100199AE9 /* FindMyPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F2319534412003BFD8C /* FindMyPetTests.swift */; };
 		AE854ED01953458700199AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE854ECE1953458700199AE9 /* Main.storyboard */; };
+		AE854ED219535DB600199AE9 /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE854ED119535DB600199AE9 /* PetTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,10 +40,20 @@
 		AE077F1819534412003BFD8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE077F1919534412003BFD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE077F1E19534412003BFD8C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE077F2019534412003BFD8C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE077F2019534412003BFD8C /* LostPetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostPetsViewController.swift; sourceTree = "<group>"; };
 		AE077F2319534412003BFD8C /* FindMyPetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMyPetTests.swift; sourceTree = "<group>"; };
 		AE077F2419534412003BFD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE53350B19535FB100B94202 /* LostPetsFakeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostPetsFakeData.swift; sourceTree = "<group>"; };
+		AE53350D19535FEB00B94202 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		AE53350F19536B9300B94202 /* FakeLostPetsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeLostPetsAPI.swift; sourceTree = "<group>"; };
+		AE5335121953749600B94202 /* fido.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fido.jpg; sourceTree = "<group>"; };
+		AE5335131953749600B94202 /* giraffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giraffe.jpg; sourceTree = "<group>"; };
+		AE5335141953749600B94202 /* hissy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hissy.jpg; sourceTree = "<group>"; };
+		AE5335151953749600B94202 /* saxophone.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saxophone.JPG; sourceTree = "<group>"; };
+		AE5335161953749600B94202 /* saxophone2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saxophone2.jpg; sourceTree = "<group>"; };
+		AE5335171953749600B94202 /* trix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trix.jpg; sourceTree = "<group>"; };
 		AE854ECF1953458700199AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE854ED119535DB600199AE9 /* PetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +96,7 @@
 		AE077F1719534412003BFD8C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AE5335111953749600B94202 /* FakeData */,
 				AE077F1819534412003BFD8C /* Images.xcassets */,
 				AE077F1919534412003BFD8C /* Info.plist */,
 				AE854ECE1953458700199AE9 /* Main.storyboard */,
@@ -87,7 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				AE077F1E19534412003BFD8C /* AppDelegate.swift */,
-				AE077F2019534412003BFD8C /* ViewController.swift */,
+				AE077F2019534412003BFD8C /* LostPetsViewController.swift */,
+				AE854ED119535DB600199AE9 /* PetTableViewCell.swift */,
+				AE53350B19535FB100B94202 /* LostPetsFakeData.swift */,
+				AE53350D19535FEB00B94202 /* Pet.swift */,
+				AE53350F19536B9300B94202 /* FakeLostPetsAPI.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -107,6 +132,19 @@
 				AE077F2419534412003BFD8C /* Info.plist */,
 			);
 			path = FindMyPetTests;
+			sourceTree = "<group>";
+		};
+		AE5335111953749600B94202 /* FakeData */ = {
+			isa = PBXGroup;
+			children = (
+				AE5335121953749600B94202 /* fido.jpg */,
+				AE5335131953749600B94202 /* giraffe.jpg */,
+				AE5335141953749600B94202 /* hissy.jpg */,
+				AE5335151953749600B94202 /* saxophone.JPG */,
+				AE5335161953749600B94202 /* saxophone2.jpg */,
+				AE5335171953749600B94202 /* trix.jpg */,
+			);
+			path = FakeData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +227,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE53351C1953749600B94202 /* saxophone2.jpg in Resources */,
 				AE854ED01953458700199AE9 /* Main.storyboard in Resources */,
+				AE5335181953749600B94202 /* fido.jpg in Resources */,
+				AE53351A1953749600B94202 /* hissy.jpg in Resources */,
+				AE53351B1953749600B94202 /* saxophone.JPG in Resources */,
+				AE5335191953749600B94202 /* giraffe.jpg in Resources */,
+				AE53351D1953749600B94202 /* trix.jpg in Resources */,
 				AE077F2519534412003BFD8C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,8 +252,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE53350C19535FB100B94202 /* LostPetsFakeData.swift in Sources */,
 				AE077F2819534412003BFD8C /* AppDelegate.swift in Sources */,
-				AE077F2919534412003BFD8C /* ViewController.swift in Sources */,
+				AE53351019536B9300B94202 /* FakeLostPetsAPI.swift in Sources */,
+				AE854ED219535DB600199AE9 /* PetTableViewCell.swift in Sources */,
+				AE53350E19535FEB00B94202 /* Pet.swift in Sources */,
+				AE077F2919534412003BFD8C /* LostPetsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
