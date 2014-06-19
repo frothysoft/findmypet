@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AE077F2519534412003BFD8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE077F1819534412003BFD8C /* Images.xcassets */; };
-		AE077F2719534412003BFD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE077F1B19534412003BFD8C /* Main.storyboard */; };
 		AE077F2819534412003BFD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F1E19534412003BFD8C /* AppDelegate.swift */; };
 		AE077F2919534412003BFD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F2019534412003BFD8C /* ViewController.swift */; };
 		AE854EC9195344F100199AE9 /* FindMyPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F2319534412003BFD8C /* FindMyPetTests.swift */; };
+		AE854ED01953458700199AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE854ECE1953458700199AE9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +29,11 @@
 		AE077F07195341EF003BFD8C /* FindMyPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE077F1819534412003BFD8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE077F1919534412003BFD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE077F1C19534412003BFD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE077F1E19534412003BFD8C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE077F2019534412003BFD8C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE077F2319534412003BFD8C /* FindMyPetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMyPetTests.swift; sourceTree = "<group>"; };
 		AE077F2419534412003BFD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE854ECF1953458700199AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,17 +78,9 @@
 			children = (
 				AE077F1819534412003BFD8C /* Images.xcassets */,
 				AE077F1919534412003BFD8C /* Info.plist */,
-				AE077F1A19534412003BFD8C /* Strings */,
+				AE854ECE1953458700199AE9 /* Main.storyboard */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		AE077F1A19534412003BFD8C /* Strings */ = {
-			isa = PBXGroup;
-			children = (
-				AE077F1B19534412003BFD8C /* Main.storyboard */,
-			);
-			path = Strings;
 			sourceTree = "<group>";
 		};
 		AE077F1D19534412003BFD8C /* Source */ = {
@@ -197,7 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE077F2719534412003BFD8C /* Main.storyboard in Resources */,
+				AE854ED01953458700199AE9 /* Main.storyboard in Resources */,
 				AE077F2519534412003BFD8C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,10 +232,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AE077F1B19534412003BFD8C /* Main.storyboard */ = {
+		AE854ECE1953458700199AE9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE077F1C19534412003BFD8C /* Base */,
+				AE854ECF1953458700199AE9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
