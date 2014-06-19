@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE077EFB195341EF003BFD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077EFA195341EF003BFD8C /* AppDelegate.swift */; };
-		AE077EFD195341EF003BFD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077EFC195341EF003BFD8C /* ViewController.swift */; };
-		AE077F00195341EF003BFD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE077EFE195341EF003BFD8C /* Main.storyboard */; };
-		AE077F02195341EF003BFD8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE077F01195341EF003BFD8C /* Images.xcassets */; };
-		AE077F0E195341EF003BFD8C /* FindMyPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F0D195341EF003BFD8C /* FindMyPetTests.swift */; };
+		AE077F2519534412003BFD8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE077F1819534412003BFD8C /* Images.xcassets */; };
+		AE077F2719534412003BFD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE077F1B19534412003BFD8C /* Main.storyboard */; };
+		AE077F2819534412003BFD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F1E19534412003BFD8C /* AppDelegate.swift */; };
+		AE077F2919534412003BFD8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F2019534412003BFD8C /* ViewController.swift */; };
+		AE854EC9195344F100199AE9 /* FindMyPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F2319534412003BFD8C /* FindMyPetTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,14 +26,14 @@
 
 /* Begin PBXFileReference section */
 		AE077EF5195341EF003BFD8C /* FindMyPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE077EF9195341EF003BFD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE077EFA195341EF003BFD8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE077EFC195341EF003BFD8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE077EFF195341EF003BFD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE077F01195341EF003BFD8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE077F07195341EF003BFD8C /* FindMyPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE077F0C195341EF003BFD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE077F0D195341EF003BFD8C /* FindMyPetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyPetTests.swift; sourceTree = "<group>"; };
+		AE077F1819534412003BFD8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE077F1919534412003BFD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE077F1C19534412003BFD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE077F1E19534412003BFD8C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE077F2019534412003BFD8C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE077F2319534412003BFD8C /* FindMyPetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMyPetTests.swift; sourceTree = "<group>"; };
+		AE077F2419534412003BFD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,9 @@
 		AE077EEC195341EF003BFD8C = {
 			isa = PBXGroup;
 			children = (
-				AE077EF7195341EF003BFD8C /* FindMyPet */,
-				AE077F0A195341EF003BFD8C /* FindMyPetTests */,
+				AE077F1719534412003BFD8C /* Resources */,
+				AE077F1D19534412003BFD8C /* Source */,
+				AE077F2119534412003BFD8C /* Tests */,
 				AE077EF6195341EF003BFD8C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,41 +73,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE077EF7195341EF003BFD8C /* FindMyPet */ = {
+		AE077F1719534412003BFD8C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AE077EFA195341EF003BFD8C /* AppDelegate.swift */,
-				AE077EFC195341EF003BFD8C /* ViewController.swift */,
-				AE077EFE195341EF003BFD8C /* Main.storyboard */,
-				AE077F01195341EF003BFD8C /* Images.xcassets */,
-				AE077EF8195341EF003BFD8C /* Supporting Files */,
+				AE077F1819534412003BFD8C /* Images.xcassets */,
+				AE077F1919534412003BFD8C /* Info.plist */,
+				AE077F1A19534412003BFD8C /* Strings */,
 			);
-			path = FindMyPet;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		AE077EF8195341EF003BFD8C /* Supporting Files */ = {
+		AE077F1A19534412003BFD8C /* Strings */ = {
 			isa = PBXGroup;
 			children = (
-				AE077EF9195341EF003BFD8C /* Info.plist */,
+				AE077F1B19534412003BFD8C /* Main.storyboard */,
 			);
-			name = "Supporting Files";
+			path = Strings;
 			sourceTree = "<group>";
 		};
-		AE077F0A195341EF003BFD8C /* FindMyPetTests */ = {
+		AE077F1D19534412003BFD8C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				AE077F0D195341EF003BFD8C /* FindMyPetTests.swift */,
-				AE077F0B195341EF003BFD8C /* Supporting Files */,
+				AE077F1E19534412003BFD8C /* AppDelegate.swift */,
+				AE077F2019534412003BFD8C /* ViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AE077F2119534412003BFD8C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE077F2219534412003BFD8C /* FindMyPetTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		AE077F2219534412003BFD8C /* FindMyPetTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE077F2319534412003BFD8C /* FindMyPetTests.swift */,
+				AE077F2419534412003BFD8C /* Info.plist */,
 			);
 			path = FindMyPetTests;
-			sourceTree = "<group>";
-		};
-		AE077F0B195341EF003BFD8C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE077F0C195341EF003BFD8C /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +197,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE077F00195341EF003BFD8C /* Main.storyboard in Resources */,
-				AE077F02195341EF003BFD8C /* Images.xcassets in Resources */,
+				AE077F2719534412003BFD8C /* Main.storyboard in Resources */,
+				AE077F2519534412003BFD8C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE077EFD195341EF003BFD8C /* ViewController.swift in Sources */,
-				AE077EFB195341EF003BFD8C /* AppDelegate.swift in Sources */,
+				AE077F2819534412003BFD8C /* AppDelegate.swift in Sources */,
+				AE077F2919534412003BFD8C /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE077F0E195341EF003BFD8C /* FindMyPetTests.swift in Sources */,
+				AE854EC9195344F100199AE9 /* FindMyPetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,10 +240,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AE077EFE195341EF003BFD8C /* Main.storyboard */ = {
+		AE077F1B19534412003BFD8C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE077EFF195341EF003BFD8C /* Base */,
+				AE077F1C19534412003BFD8C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -327,7 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = FindMyPet/Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -338,7 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = FindMyPet/Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -399,6 +407,7 @@
 				AE077F13195341EF003BFD8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE077F14195341EF003BFD8C /* Build configuration list for PBXNativeTarget "FindMyPetTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +416,7 @@
 				AE077F16195341EF003BFD8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
