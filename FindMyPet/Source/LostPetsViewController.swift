@@ -11,15 +11,21 @@ import UIKit
 class LostPetsViewController: UITableViewController, UITableViewDelegate, UITableViewDataSource {
   
   var lostPets: Pet[]
+  let lostPetsAPI: LostPetsAPI
+  let petsStore: PetsDataAccess
   
   init(coder aDecoder: NSCoder!) {
-    lostPets = FakeLostPetsAPI().allLostPets()
+    lostPets = []
+    let objectsFactory = (UIApplication.sharedApplication().delegate as AppDelegate).objectsFactory
+    lostPetsAPI = objectsFactory.lostPetsAPI
+    petsStore = objectsFactory.petsStore
     super.init(coder: aDecoder)
   }
   
   override func viewDidLoad() {
     super.viewDidLoad()
     setUpTableView()
+    loadLostPets()
   }
   
   func setUpTableView() {
@@ -27,10 +33,12 @@ class LostPetsViewController: UITableViewController, UITableViewDelegate, UITabl
     tableView.dataSource = self
     tableView.rowHeight = 130
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+  
+  func loadLostPets() {
+    lostPetsAPI.getLostPetsWithCompletion({ () in
+      self.lostPets = self.petsStore.allPets()
+      self.tableView.reloadData()
+    })
   }
 
   override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
@@ -40,17 +48,11 @@ class LostPetsViewController: UITableViewController, UITableViewDelegate, UITabl
   override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell!  {
     let id = "PetTableViewCell"
     var cell = tableView.dequeueReusableCellWithIdentifier(id) as? PetTableViewCell
-    if !cell {
-      cell = PetTableViewCell()
-    }
+    if !cell { cell = PetTableViewCell() }
     
     let pet = lostPets[indexPath.item]
     let displayablePet = DisplayablePet(pet: pet)
-    if let c = cell {
-      c.petImageView.image = displayablePet.image
-      c.petNameLabel.text = displayablePet.name
-      c.petInfoLabel.text = displayablePet.details
-    }
+    cell!.displayPet(displayablePet)
     
     return cell
   }

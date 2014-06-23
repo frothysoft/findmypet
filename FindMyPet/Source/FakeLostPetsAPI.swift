@@ -8,9 +8,9 @@
 
 import Foundation
 
-class FakeLostPetsAPI {
+class FakeLostPetsAPI: LostPetsAPI {
   
-  func allLostPets() -> Pet[] {
-    return LostPetsFakeData().lostPets
+  func getLostPetsWithCompletion(completion: (() -> () )?) {
+    // TODO: complete after a timeout
   }
 }

@@ -27,26 +27,28 @@
                                                 <constraint firstAttribute="height" constant="100" id="9Df-Hd-Qy3"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="46" translatesAutoresizingMaskIntoConstraints="NO" id="Li9-kh-LiR">
-                                            <rect key="frame" x="128" y="54" width="46" height="22"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="332" translatesAutoresizingMaskIntoConstraints="NO" id="Li9-kh-LiR">
+                                            <rect key="frame" x="128" y="55" width="332" height="20"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSB-Eg-Vm1">
-                                            <rect key="frame" x="128" y="76" width="36" height="17"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RSB-Eg-Vm1">
+                                            <rect key="frame" x="128" y="75" width="332" height="17"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="HHk-nq-Xcb" firstAttribute="leading" secondItem="TaL-3Z-nG0" secondAttribute="leading" constant="20" symbolic="YES" id="5gF-gF-F5L"/>
+                                        <constraint firstItem="RSB-Eg-Vm1" firstAttribute="top" secondItem="Li9-kh-LiR" secondAttribute="bottom" id="LeC-YQ-K3z"/>
                                         <constraint firstAttribute="centerY" secondItem="HHk-nq-Xcb" secondAttribute="centerY" id="R2f-8b-nX6"/>
                                         <constraint firstItem="Li9-kh-LiR" firstAttribute="leading" secondItem="HHk-nq-Xcb" secondAttribute="trailing" constant="8" symbolic="YES" id="ST9-jI-F7S"/>
+                                        <constraint firstAttribute="trailing" secondItem="Li9-kh-LiR" secondAttribute="trailing" constant="20" symbolic="YES" id="W0r-Sn-Qlh"/>
                                         <constraint firstItem="RSB-Eg-Vm1" firstAttribute="leading" secondItem="Li9-kh-LiR" secondAttribute="leading" id="iJ0-I5-dXG"/>
+                                        <constraint firstAttribute="trailing" secondItem="RSB-Eg-Vm1" secondAttribute="trailing" constant="20" symbolic="YES" id="ilq-Pw-6ME"/>
                                         <constraint firstAttribute="centerY" secondItem="Li9-kh-LiR" secondAttribute="centerY" id="jdG-Lm-myr"/>
-                                        <constraint firstItem="RSB-Eg-Vm1" firstAttribute="top" secondItem="Li9-kh-LiR" secondAttribute="bottom" id="zGd-Uj-XX6"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -65,7 +67,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l7r-6y-754" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="171" y="434"/>
+            <point key="canvasLocation" x="171" y="433"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="D6i-So-aa6">

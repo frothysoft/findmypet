@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C07EF85F2C24544BDB606B5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8177FB2EA724A60B1FC46E5 /* libPods.a */; };
 		AE077F2519534412003BFD8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE077F1819534412003BFD8C /* Images.xcassets */; };
 		AE077F2819534412003BFD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F1E19534412003BFD8C /* AppDelegate.swift */; };
 		AE077F2919534412003BFD8C /* LostPetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F2019534412003BFD8C /* LostPetsViewController.swift */; };
-		AE53350C19535FB100B94202 /* LostPetsFakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53350B19535FB100B94202 /* LostPetsFakeData.swift */; };
-		AE53350E19535FEB00B94202 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53350D19535FEB00B94202 /* Pet.swift */; };
+		AE1946D01954E48900113927 /* PFObjectToPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1946CF1954E48900113927 /* PFObjectToPet.swift */; };
+		AE1946D21954E95F00113927 /* PetDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1946D11954E95F00113927 /* PetDetailsViewController.swift */; };
+		AE53350C19535FB100B94202 /* FakePetsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53350B19535FB100B94202 /* FakePetsStore.swift */; };
 		AE53351019536B9300B94202 /* FakeLostPetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53350F19536B9300B94202 /* FakeLostPetsAPI.swift */; };
 		AE5335181953749600B94202 /* fido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335121953749600B94202 /* fido.jpg */; };
 		AE5335191953749600B94202 /* giraffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335131953749600B94202 /* giraffe.jpg */; };
@@ -19,6 +21,14 @@
 		AE53351B1953749600B94202 /* saxophone.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AE5335151953749600B94202 /* saxophone.JPG */; };
 		AE53351C1953749600B94202 /* saxophone2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335161953749600B94202 /* saxophone2.jpg */; };
 		AE53351D1953749600B94202 /* trix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335171953749600B94202 /* trix.jpg */; };
+		AE533523195382F800B94202 /* DisplayablePet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE533522195382F800B94202 /* DisplayablePet.swift */; };
+		AE76043C19546E0D001AFCE1 /* PetsDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76043B19546E0D001AFCE1 /* PetsDataAccess.swift */; };
+		AE76043E19546F32001AFCE1 /* InMemoryPetsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76043D19546F32001AFCE1 /* InMemoryPetsStore.swift */; };
+		AE76044619548EF4001AFCE1 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76044519548EF4001AFCE1 /* Pet.swift */; };
+		AE76044819548F34001AFCE1 /* ParseFakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76044719548F34001AFCE1 /* ParseFakeData.swift */; };
+		AE76044A19549141001AFCE1 /* LostPetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76044919549141001AFCE1 /* LostPetsAPI.swift */; };
+		AE76044C1954ACB7001AFCE1 /* ObjectsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76044B1954ACB7001AFCE1 /* ObjectsFactory.swift */; };
+		AE76044E1954AD80001AFCE1 /* ParseLostPetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76044D1954AD80001AFCE1 /* ParseLostPetsAPI.swift */; };
 		AE854EC9195344F100199AE9 /* FindMyPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F2319534412003BFD8C /* FindMyPetTests.swift */; };
 		AE854ED01953458700199AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE854ECE1953458700199AE9 /* Main.storyboard */; };
 		AE854ED219535DB600199AE9 /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE854ED119535DB600199AE9 /* PetTableViewCell.swift */; };
@@ -34,7 +44,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AE53354B1954646D00B94202 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		627827A4581E4652876B189F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		AE077EF5195341EF003BFD8C /* FindMyPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE077F07195341EF003BFD8C /* FindMyPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE077F1819534412003BFD8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -43,8 +67,9 @@
 		AE077F2019534412003BFD8C /* LostPetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostPetsViewController.swift; sourceTree = "<group>"; };
 		AE077F2319534412003BFD8C /* FindMyPetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMyPetTests.swift; sourceTree = "<group>"; };
 		AE077F2419534412003BFD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE53350B19535FB100B94202 /* LostPetsFakeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostPetsFakeData.swift; sourceTree = "<group>"; };
-		AE53350D19535FEB00B94202 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		AE1946CF1954E48900113927 /* PFObjectToPet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PFObjectToPet.swift; sourceTree = "<group>"; };
+		AE1946D11954E95F00113927 /* PetDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetDetailsViewController.swift; sourceTree = "<group>"; };
+		AE53350B19535FB100B94202 /* FakePetsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakePetsStore.swift; sourceTree = "<group>"; };
 		AE53350F19536B9300B94202 /* FakeLostPetsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeLostPetsAPI.swift; sourceTree = "<group>"; };
 		AE5335121953749600B94202 /* fido.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fido.jpg; sourceTree = "<group>"; };
 		AE5335131953749600B94202 /* giraffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giraffe.jpg; sourceTree = "<group>"; };
@@ -52,8 +77,18 @@
 		AE5335151953749600B94202 /* saxophone.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saxophone.JPG; sourceTree = "<group>"; };
 		AE5335161953749600B94202 /* saxophone2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saxophone2.jpg; sourceTree = "<group>"; };
 		AE5335171953749600B94202 /* trix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trix.jpg; sourceTree = "<group>"; };
+		AE53351E1953818300B94202 /* FindMyPet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindMyPet-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE533522195382F800B94202 /* DisplayablePet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayablePet.swift; sourceTree = "<group>"; };
+		AE76043B19546E0D001AFCE1 /* PetsDataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsDataAccess.swift; sourceTree = "<group>"; };
+		AE76043D19546F32001AFCE1 /* InMemoryPetsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryPetsStore.swift; sourceTree = "<group>"; };
+		AE76044519548EF4001AFCE1 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		AE76044719548F34001AFCE1 /* ParseFakeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseFakeData.swift; sourceTree = "<group>"; };
+		AE76044919549141001AFCE1 /* LostPetsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostPetsAPI.swift; sourceTree = "<group>"; };
+		AE76044B1954ACB7001AFCE1 /* ObjectsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectsFactory.swift; sourceTree = "<group>"; };
+		AE76044D1954AD80001AFCE1 /* ParseLostPetsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseLostPetsAPI.swift; sourceTree = "<group>"; };
 		AE854ECF1953458700199AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE854ED119535DB600199AE9 /* PetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
+		D8177FB2EA724A60B1FC46E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C07EF85F2C24544BDB606B5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3144E2FF2D8547D18638EF6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8177FB2EA724A60B1FC46E5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE077EEC195341EF003BFD8C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				AE077F1D19534412003BFD8C /* Source */,
 				AE077F2119534412003BFD8C /* Tests */,
 				AE077EF6195341EF003BFD8C /* Products */,
+				627827A4581E4652876B189F /* Pods.xcconfig */,
+				3144E2FF2D8547D18638EF6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,11 +154,21 @@
 			isa = PBXGroup;
 			children = (
 				AE077F1E19534412003BFD8C /* AppDelegate.swift */,
+				AE76044B1954ACB7001AFCE1 /* ObjectsFactory.swift */,
 				AE077F2019534412003BFD8C /* LostPetsViewController.swift */,
+				AE1946D11954E95F00113927 /* PetDetailsViewController.swift */,
 				AE854ED119535DB600199AE9 /* PetTableViewCell.swift */,
-				AE53350B19535FB100B94202 /* LostPetsFakeData.swift */,
-				AE53350D19535FEB00B94202 /* Pet.swift */,
+				AE533522195382F800B94202 /* DisplayablePet.swift */,
+				AE76044519548EF4001AFCE1 /* Pet.swift */,
+				AE1946CF1954E48900113927 /* PFObjectToPet.swift */,
+				AE76043B19546E0D001AFCE1 /* PetsDataAccess.swift */,
+				AE76043D19546F32001AFCE1 /* InMemoryPetsStore.swift */,
+				AE76044719548F34001AFCE1 /* ParseFakeData.swift */,
+				AE76044919549141001AFCE1 /* LostPetsAPI.swift */,
+				AE76044D1954AD80001AFCE1 /* ParseLostPetsAPI.swift */,
 				AE53350F19536B9300B94202 /* FakeLostPetsAPI.swift */,
+				AE53350B19535FB100B94202 /* FakePetsStore.swift */,
+				AE53351E1953818300B94202 /* FindMyPet-Bridging-Header.h */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -154,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE077F11195341EF003BFD8C /* Build configuration list for PBXNativeTarget "FindMyPet" */;
 			buildPhases = (
+				D791E256E8B24C56897681D7 /* Check Pods Manifest.lock */,
 				AE077EF1195341EF003BFD8C /* Sources */,
 				AE077EF2195341EF003BFD8C /* Frameworks */,
 				AE077EF3195341EF003BFD8C /* Resources */,
+				D0C940C2F7604B3DB8D24357 /* Copy Pods Resources */,
+				AE53354B1954646D00B94202 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,17 +306,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D0C940C2F7604B3DB8D24357 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D791E256E8B24C56897681D7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE077EF1195341EF003BFD8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE53350C19535FB100B94202 /* LostPetsFakeData.swift in Sources */,
+				AE53350C19535FB100B94202 /* FakePetsStore.swift in Sources */,
+				AE76044C1954ACB7001AFCE1 /* ObjectsFactory.swift in Sources */,
 				AE077F2819534412003BFD8C /* AppDelegate.swift in Sources */,
+				AE533523195382F800B94202 /* DisplayablePet.swift in Sources */,
+				AE76043E19546F32001AFCE1 /* InMemoryPetsStore.swift in Sources */,
+				AE1946D01954E48900113927 /* PFObjectToPet.swift in Sources */,
+				AE76044A19549141001AFCE1 /* LostPetsAPI.swift in Sources */,
 				AE53351019536B9300B94202 /* FakeLostPetsAPI.swift in Sources */,
 				AE854ED219535DB600199AE9 /* PetTableViewCell.swift in Sources */,
-				AE53350E19535FEB00B94202 /* Pet.swift in Sources */,
+				AE76044E1954AD80001AFCE1 /* ParseLostPetsAPI.swift in Sources */,
+				AE1946D21954E95F00113927 /* PetDetailsViewController.swift in Sources */,
 				AE077F2919534412003BFD8C /* LostPetsViewController.swift in Sources */,
+				AE76044619548EF4001AFCE1 /* Pet.swift in Sources */,
+				AE76044819548F34001AFCE1 /* ParseFakeData.swift in Sources */,
+				AE76043C19546E0D001AFCE1 /* PetsDataAccess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,23 +473,30 @@
 		};
 		AE077F12195341EF003BFD8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627827A4581E4652876B189F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Source/FindMyPet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		AE077F13195341EF003BFD8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627827A4581E4652876B189F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Source/FindMyPet-Bridging-Header.h";
 			};
 			name = Release;
 		};

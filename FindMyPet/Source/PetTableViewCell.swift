@@ -22,15 +22,15 @@ class PetTableViewCell: UITableViewCell {
     super.awakeFromNib()
     self.petImageView.clipsToBounds = true
   }
-
-  override func setSelected(selected: Bool, animated: Bool) {
-    super.setSelected(selected, animated: animated)
-
-    // Configure the view for the selected state
-  }
   
   override func layoutSubviews()  {
     super.layoutSubviews()
     self.petImageView.layer.cornerRadius = self.petImageView.bounds.size.width / 2
+  }
+  
+  func displayPet(displayablePet: DisplayablePet) {
+    petImageView.setImageWithURL(displayablePet.imageURL)
+    petNameLabel.text = displayablePet.name
+    petInfoLabel.text = displayablePet.description
   }
 }
