@@ -8,61 +8,61 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-Bolts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
+		</dict>
+		<key>Pods-FLKAutoLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-Facebook-iOS-SDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>Pods-Parse-iOS-SDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2E80F4DF4C6B4F709AD57357</key>
+		<key>093C16E7328B49B9893788E1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>36797839CD1F4B7E8C144870</key>
+		<key>4BDC4DB9F26A4BF4A8B63CC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3A41B97BE0B04517A958DAA9</key>
+		<key>749F1E71FA744694B07FAE05</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>542547E393774396B6A3D14E</key>
+		<key>818EEF18BDE940D0826B100E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D71CD83E62B94E868C37301E</key>
+		<key>92AA8989DE604E08AB51124F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AFD5D61ED79346B9A56CE9DE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

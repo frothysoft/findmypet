@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AvatarKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>FindMyPet.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -14,9 +19,34 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>PetUIKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>AE014EAF195906570063DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE014EB9195906570063DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE014ED7195922AC0063DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE014EE1195922AC0063DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AE077EF4195341EF003BFD8C</key>
 		<dict>
 			<key>primary</key>
@@ -43,6 +73,16 @@
 			<true/>
 		</dict>
 		<key>AE533569195468BC00B94202</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEA095661958A57C008CCD6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEA095701958A57C008CCD6B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

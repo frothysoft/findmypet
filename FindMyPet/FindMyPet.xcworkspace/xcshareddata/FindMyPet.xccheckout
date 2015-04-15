@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7B5BA569-863D-402A-97CF-748A32F5AE8A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FindMyPet</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>47AC53D8-708F-4B0C-9994-5481D7088E8B</key>
+		<string>https://github.com/frothysoft/findmypet.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>findmypet/FindMyPet.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>47AC53D8-708F-4B0C-9994-5481D7088E8B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/frothysoft/findmypet.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>47AC53D8-708F-4B0C-9994-5481D7088E8B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>47AC53D8-708F-4B0C-9994-5481D7088E8B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>find-my-pet</string>
+		</dict>
+	</array>
+</dict>
+</plist>

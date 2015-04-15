@@ -21,8 +21,11 @@ class FindMyPetTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+      var addPetExpectation: XCTestExpectation
+      
+      waitForExpectationsWithTimeout(10, {error in
+        
+      })
     }
     
     func testPerformanceExample() {

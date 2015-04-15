@@ -8,34 +8,116 @@
 
 /* Begin PBXBuildFile section */
 		2C07EF85F2C24544BDB606B5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8177FB2EA724A60B1FC46E5 /* libPods.a */; };
+		AE014EDD195922AC0063DD87 /* PetKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AE014EDC195922AC0063DD87 /* PetKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE014EE3195922AD0063DD87 /* PetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE014ED8195922AC0063DD87 /* PetKit.framework */; };
+		AE014EEA195922AD0063DD87 /* PetKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE014EE9195922AD0063DD87 /* PetKitTests.swift */; };
+		AE014EED195922AD0063DD87 /* PetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE014ED8195922AC0063DD87 /* PetKit.framework */; };
+		AE014EEE195922AD0063DD87 /* PetKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE014ED8195922AC0063DD87 /* PetKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AE014EFA195925CA0063DD87 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE014EF9195925CA0063DD87 /* Colors.swift */; };
 		AE077F2519534412003BFD8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE077F1819534412003BFD8C /* Images.xcassets */; };
-		AE077F2819534412003BFD8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F1E19534412003BFD8C /* AppDelegate.swift */; };
-		AE077F2919534412003BFD8C /* LostPetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F2019534412003BFD8C /* LostPetsViewController.swift */; };
-		AE1946D01954E48900113927 /* PFObjectToPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1946CF1954E48900113927 /* PFObjectToPet.swift */; };
-		AE1946D21954E95F00113927 /* PetDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1946D11954E95F00113927 /* PetDetailsViewController.swift */; };
-		AE53350C19535FB100B94202 /* FakePetsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53350B19535FB100B94202 /* FakePetsStore.swift */; };
-		AE53351019536B9300B94202 /* FakeLostPetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53350F19536B9300B94202 /* FakeLostPetsAPI.swift */; };
+		AE1AF0B81958D53900D75D99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1AF0B71958D53900D75D99 /* Main.storyboard */; };
+		AE52991A195E0D3700067AF6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE529919195E0D3700067AF6 /* LocationManager.swift */; };
 		AE5335181953749600B94202 /* fido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335121953749600B94202 /* fido.jpg */; };
 		AE5335191953749600B94202 /* giraffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335131953749600B94202 /* giraffe.jpg */; };
 		AE53351A1953749600B94202 /* hissy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335141953749600B94202 /* hissy.jpg */; };
 		AE53351B1953749600B94202 /* saxophone.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AE5335151953749600B94202 /* saxophone.JPG */; };
 		AE53351C1953749600B94202 /* saxophone2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335161953749600B94202 /* saxophone2.jpg */; };
 		AE53351D1953749600B94202 /* trix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5335171953749600B94202 /* trix.jpg */; };
-		AE533523195382F800B94202 /* DisplayablePet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE533522195382F800B94202 /* DisplayablePet.swift */; };
-		AE76043C19546E0D001AFCE1 /* PetsDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76043B19546E0D001AFCE1 /* PetsDataAccess.swift */; };
-		AE76043E19546F32001AFCE1 /* InMemoryPetsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76043D19546F32001AFCE1 /* InMemoryPetsStore.swift */; };
-		AE76044619548EF4001AFCE1 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76044519548EF4001AFCE1 /* Pet.swift */; };
-		AE76044819548F34001AFCE1 /* ParseFakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76044719548F34001AFCE1 /* ParseFakeData.swift */; };
-		AE76044A19549141001AFCE1 /* LostPetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76044919549141001AFCE1 /* LostPetsAPI.swift */; };
-		AE76044C1954ACB7001AFCE1 /* ObjectsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76044B1954ACB7001AFCE1 /* ObjectsFactory.swift */; };
-		AE76044E1954AD80001AFCE1 /* ParseLostPetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76044D1954AD80001AFCE1 /* ParseLostPetsAPI.swift */; };
+		AE6A96D0195B7AFB00702CE6 /* PetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A96CF195B7AFB00702CE6 /* PetData.swift */; };
+		AE6A96D9195B8B0900702CE6 /* PetDataToPFObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A96D8195B8B0900702CE6 /* PetDataToPFObject.swift */; };
+		AE6A96DB195BB73000702CE6 /* ParsePetKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A96DA195BB73000702CE6 /* ParsePetKeys.swift */; };
+		AE6A96DD195BC47E00702CE6 /* CurrentLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A96DC195BC47E00702CE6 /* CurrentLocationManager.swift */; };
+		AE80DBD4195DF00C0002A856 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE80DBD3195DF00C0002A856 /* WelcomeViewController.swift */; };
 		AE854EC9195344F100199AE9 /* FindMyPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE077F2319534412003BFD8C /* FindMyPetTests.swift */; };
-		AE854ED01953458700199AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE854ECE1953458700199AE9 /* Main.storyboard */; };
-		AE854ED219535DB600199AE9 /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE854ED119535DB600199AE9 /* PetTableViewCell.swift */; };
+		AE9B04B81958E358009A796A /* LostPetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B049A1958E358009A796A /* LostPetsAPI.swift */; };
+		AE9B04B91958E358009A796A /* ParseLostPetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B049B1958E358009A796A /* ParseLostPetsAPI.swift */; };
+		AE9B04C91958E36E009A796A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04C81958E36E009A796A /* AppDelegate.swift */; };
+		AE9B04D21958E388009A796A /* InMemoryPetsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04CB1958E388009A796A /* InMemoryPetsStore.swift */; };
+		AE9B04D31958E388009A796A /* ObjectsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04CC1958E388009A796A /* ObjectsFactory.swift */; };
+		AE9B04D51958E388009A796A /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04CE1958E388009A796A /* Pet.swift */; };
+		AE9B04D61958E388009A796A /* PetsDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04CF1958E388009A796A /* PetsDataAccess.swift */; };
+		AE9B04D71958E388009A796A /* PFObjectToPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04D01958E388009A796A /* PFObjectToPet.swift */; };
+		AE9B04DE1958E3B8009A796A /* AvatarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04D81958E3B8009A796A /* AvatarButton.swift */; };
+		AE9B04DF1958E3B8009A796A /* AddPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04D91958E3B8009A796A /* AddPetViewController.swift */; };
+		AE9B04E01958E3B8009A796A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04DA1958E3B8009A796A /* Colors.swift */; };
+		AE9B04E11958E3B8009A796A /* DisplayablePet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04DB1958E3B8009A796A /* DisplayablePet.swift */; };
+		AE9B04E21958E3B8009A796A /* LostPetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04DC1958E3B8009A796A /* LostPetsViewController.swift */; };
+		AE9B04E31958E3B8009A796A /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B04DD1958E3B8009A796A /* PetTableViewCell.swift */; };
+		AEC14F44195A2D46006937CC /* AddPetRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC14F43195A2D46006937CC /* AddPetRootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AE014EE4195922AD0063DD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE077EED195341EF003BFD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE014ED7195922AC0063DD87;
+			remoteInfo = PetKit;
+		};
+		AE014EEB195922AD0063DD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE077EED195341EF003BFD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE014ED7195922AC0063DD87;
+			remoteInfo = PetKit;
+		};
+		AE014EEF195922AD0063DD87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE077EED195341EF003BFD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE014ED7195922AC0063DD87;
+			remoteInfo = PetKit;
+		};
 		AE077F08195341EF003BFD8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE077EED195341EF003BFD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE077EF4195341EF003BFD8C;
+			remoteInfo = FindMyPet;
+		};
+		AE5299331960E54A00067AF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE077EED195341EF003BFD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE077EF4195341EF003BFD8C;
+			remoteInfo = FindMyPet;
+		};
+		AE5299351960E54A00067AF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE077EED195341EF003BFD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE077EF4195341EF003BFD8C;
+			remoteInfo = FindMyPet;
+		};
+		AE52993A1960E65000067AF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE077EED195341EF003BFD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE077EF4195341EF003BFD8C;
+			remoteInfo = FindMyPet;
+		};
+		AE6A96D2195B80B400702CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE077EED195341EF003BFD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE077EF4195341EF003BFD8C;
+			remoteInfo = FindMyPet;
+		};
+		AE6A96D4195B80B400702CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE077EED195341EF003BFD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE077EF4195341EF003BFD8C;
+			remoteInfo = FindMyPet;
+		};
+		AE6A96DE195CAC2D00702CE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE077EED195341EF003BFD8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE077EF4195341EF003BFD8C;
+			remoteInfo = FindMyPet;
+		};
+		AE80DBD5195DF96C0002A856 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AE077EED195341EF003BFD8C /* Project object */;
 			proxyType = 1;
@@ -51,6 +133,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AE014EEE195922AD0063DD87 /* PetKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,44 +142,74 @@
 
 /* Begin PBXFileReference section */
 		627827A4581E4652876B189F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AE014ED8195922AC0063DD87 /* PetKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PetKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE014EDB195922AC0063DD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE014EDC195922AC0063DD87 /* PetKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetKit.h; sourceTree = "<group>"; };
+		AE014EE2195922AC0063DD87 /* PetKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE014EE8195922AD0063DD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE014EE9195922AD0063DD87 /* PetKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetKitTests.swift; sourceTree = "<group>"; };
+		AE014EF9195925CA0063DD87 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		AE077EF5195341EF003BFD8C /* FindMyPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE077F07195341EF003BFD8C /* FindMyPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE077F1819534412003BFD8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE077F1919534412003BFD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE077F1E19534412003BFD8C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE077F2019534412003BFD8C /* LostPetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostPetsViewController.swift; sourceTree = "<group>"; };
 		AE077F2319534412003BFD8C /* FindMyPetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMyPetTests.swift; sourceTree = "<group>"; };
 		AE077F2419534412003BFD8C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE1946CF1954E48900113927 /* PFObjectToPet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PFObjectToPet.swift; sourceTree = "<group>"; };
-		AE1946D11954E95F00113927 /* PetDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetDetailsViewController.swift; sourceTree = "<group>"; };
-		AE53350B19535FB100B94202 /* FakePetsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakePetsStore.swift; sourceTree = "<group>"; };
-		AE53350F19536B9300B94202 /* FakeLostPetsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeLostPetsAPI.swift; sourceTree = "<group>"; };
+		AE1AF0B71958D53900D75D99 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AE529919195E0D3700067AF6 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		AE5335121953749600B94202 /* fido.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fido.jpg; sourceTree = "<group>"; };
 		AE5335131953749600B94202 /* giraffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giraffe.jpg; sourceTree = "<group>"; };
 		AE5335141953749600B94202 /* hissy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hissy.jpg; sourceTree = "<group>"; };
 		AE5335151953749600B94202 /* saxophone.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saxophone.JPG; sourceTree = "<group>"; };
 		AE5335161953749600B94202 /* saxophone2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saxophone2.jpg; sourceTree = "<group>"; };
 		AE5335171953749600B94202 /* trix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trix.jpg; sourceTree = "<group>"; };
-		AE53351E1953818300B94202 /* FindMyPet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindMyPet-Bridging-Header.h"; sourceTree = "<group>"; };
-		AE533522195382F800B94202 /* DisplayablePet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayablePet.swift; sourceTree = "<group>"; };
-		AE76043B19546E0D001AFCE1 /* PetsDataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsDataAccess.swift; sourceTree = "<group>"; };
-		AE76043D19546F32001AFCE1 /* InMemoryPetsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryPetsStore.swift; sourceTree = "<group>"; };
-		AE76044519548EF4001AFCE1 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
-		AE76044719548F34001AFCE1 /* ParseFakeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseFakeData.swift; sourceTree = "<group>"; };
-		AE76044919549141001AFCE1 /* LostPetsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostPetsAPI.swift; sourceTree = "<group>"; };
-		AE76044B1954ACB7001AFCE1 /* ObjectsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectsFactory.swift; sourceTree = "<group>"; };
-		AE76044D1954AD80001AFCE1 /* ParseLostPetsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseLostPetsAPI.swift; sourceTree = "<group>"; };
-		AE854ECF1953458700199AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE854ED119535DB600199AE9 /* PetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
+		AE6A96CF195B7AFB00702CE6 /* PetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetData.swift; sourceTree = "<group>"; };
+		AE6A96D8195B8B0900702CE6 /* PetDataToPFObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetDataToPFObject.swift; sourceTree = "<group>"; };
+		AE6A96DA195BB73000702CE6 /* ParsePetKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsePetKeys.swift; sourceTree = "<group>"; };
+		AE6A96DC195BC47E00702CE6 /* CurrentLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentLocationManager.swift; sourceTree = "<group>"; };
+		AE80DBD3195DF00C0002A856 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		AE9B049A1958E358009A796A /* LostPetsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostPetsAPI.swift; sourceTree = "<group>"; };
+		AE9B049B1958E358009A796A /* ParseLostPetsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseLostPetsAPI.swift; sourceTree = "<group>"; };
+		AE9B04A81958E358009A796A /* FindMyPet-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FindMyPet-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE9B04AA1958E358009A796A /* AvatarPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AvatarPlayground.playground; sourceTree = "<group>"; };
+		AE9B04C81958E36E009A796A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE9B04CB1958E388009A796A /* InMemoryPetsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryPetsStore.swift; sourceTree = "<group>"; };
+		AE9B04CC1958E388009A796A /* ObjectsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectsFactory.swift; sourceTree = "<group>"; };
+		AE9B04CE1958E388009A796A /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		AE9B04CF1958E388009A796A /* PetsDataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsDataAccess.swift; sourceTree = "<group>"; };
+		AE9B04D01958E388009A796A /* PFObjectToPet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PFObjectToPet.swift; sourceTree = "<group>"; };
+		AE9B04D81958E3B8009A796A /* AvatarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarButton.swift; sourceTree = "<group>"; };
+		AE9B04D91958E3B8009A796A /* AddPetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPetViewController.swift; sourceTree = "<group>"; };
+		AE9B04DA1958E3B8009A796A /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		AE9B04DB1958E3B8009A796A /* DisplayablePet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayablePet.swift; sourceTree = "<group>"; };
+		AE9B04DC1958E3B8009A796A /* LostPetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostPetsViewController.swift; sourceTree = "<group>"; };
+		AE9B04DD1958E3B8009A796A /* PetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
+		AEC14F43195A2D46006937CC /* AddPetRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPetRootView.swift; sourceTree = "<group>"; };
 		D8177FB2EA724A60B1FC46E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AE014ED4195922AC0063DD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE014EDF195922AC0063DD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE014EE3195922AD0063DD87 /* PetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE077EF2195341EF003BFD8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2C07EF85F2C24544BDB606B5 /* libPods.a in Frameworks */,
+				AE014EED195922AD0063DD87 /* PetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,12 +231,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AE014ED9195922AC0063DD87 /* PetKit */ = {
+			isa = PBXGroup;
+			children = (
+				AE014EDC195922AC0063DD87 /* PetKit.h */,
+				AE014EF9195925CA0063DD87 /* Colors.swift */,
+				AE014EDA195922AC0063DD87 /* Supporting Files */,
+			);
+			path = PetKit;
+			sourceTree = "<group>";
+		};
+		AE014EDA195922AC0063DD87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE014EDB195922AC0063DD87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE014EE6195922AD0063DD87 /* PetKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE014EE9195922AD0063DD87 /* PetKitTests.swift */,
+				AE014EE7195922AD0063DD87 /* Supporting Files */,
+			);
+			path = PetKitTests;
+			sourceTree = "<group>";
+		};
+		AE014EE7195922AD0063DD87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE014EE8195922AD0063DD87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		AE077EEC195341EF003BFD8C = {
 			isa = PBXGroup;
 			children = (
 				AE077F1719534412003BFD8C /* Resources */,
 				AE077F1D19534412003BFD8C /* Source */,
 				AE077F2119534412003BFD8C /* Tests */,
+				AE014ED9195922AC0063DD87 /* PetKit */,
+				AE014EE6195922AD0063DD87 /* PetKitTests */,
 				AE077EF6195341EF003BFD8C /* Products */,
 				627827A4581E4652876B189F /* Pods.xcconfig */,
 				3144E2FF2D8547D18638EF6C /* Frameworks */,
@@ -135,6 +285,8 @@
 			children = (
 				AE077EF5195341EF003BFD8C /* FindMyPet.app */,
 				AE077F07195341EF003BFD8C /* FindMyPetTests.xctest */,
+				AE014ED8195922AC0063DD87 /* PetKit.framework */,
+				AE014EE2195922AC0063DD87 /* PetKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,7 +297,7 @@
 				AE5335111953749600B94202 /* FakeData */,
 				AE077F1819534412003BFD8C /* Images.xcassets */,
 				AE077F1919534412003BFD8C /* Info.plist */,
-				AE854ECE1953458700199AE9 /* Main.storyboard */,
+				AE1AF0B71958D53900D75D99 /* Main.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -153,22 +305,12 @@
 		AE077F1D19534412003BFD8C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				AE077F1E19534412003BFD8C /* AppDelegate.swift */,
-				AE76044B1954ACB7001AFCE1 /* ObjectsFactory.swift */,
-				AE077F2019534412003BFD8C /* LostPetsViewController.swift */,
-				AE1946D11954E95F00113927 /* PetDetailsViewController.swift */,
-				AE854ED119535DB600199AE9 /* PetTableViewCell.swift */,
-				AE533522195382F800B94202 /* DisplayablePet.swift */,
-				AE76044519548EF4001AFCE1 /* Pet.swift */,
-				AE1946CF1954E48900113927 /* PFObjectToPet.swift */,
-				AE76043B19546E0D001AFCE1 /* PetsDataAccess.swift */,
-				AE76043D19546F32001AFCE1 /* InMemoryPetsStore.swift */,
-				AE76044719548F34001AFCE1 /* ParseFakeData.swift */,
-				AE76044919549141001AFCE1 /* LostPetsAPI.swift */,
-				AE76044D1954AD80001AFCE1 /* ParseLostPetsAPI.swift */,
-				AE53350F19536B9300B94202 /* FakeLostPetsAPI.swift */,
-				AE53350B19535FB100B94202 /* FakePetsStore.swift */,
-				AE53351E1953818300B94202 /* FindMyPet-Bridging-Header.h */,
+				AE9B04C81958E36E009A796A /* AppDelegate.swift */,
+				AE9B04981958E358009A796A /* API */,
+				AE9B049E1958E358009A796A /* Data */,
+				AE9B04A81958E358009A796A /* FindMyPet-Bridging-Header.h */,
+				AE9B04A91958E358009A796A /* Playgrounds */,
+				AE9B04AB1958E358009A796A /* UI */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -203,9 +345,105 @@
 			path = FakeData;
 			sourceTree = "<group>";
 		};
+		AE9B04981958E358009A796A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B049A1958E358009A796A /* LostPetsAPI.swift */,
+				AE9B049B1958E358009A796A /* ParseLostPetsAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AE9B049E1958E358009A796A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B04CB1958E388009A796A /* InMemoryPetsStore.swift */,
+				AE9B04CC1958E388009A796A /* ObjectsFactory.swift */,
+				AE9B04CE1958E388009A796A /* Pet.swift */,
+				AE6A96CF195B7AFB00702CE6 /* PetData.swift */,
+				AE9B04CF1958E388009A796A /* PetsDataAccess.swift */,
+				AE6A96DA195BB73000702CE6 /* ParsePetKeys.swift */,
+				AE9B04D01958E388009A796A /* PFObjectToPet.swift */,
+				AE6A96D8195B8B0900702CE6 /* PetDataToPFObject.swift */,
+				AE6A96DC195BC47E00702CE6 /* CurrentLocationManager.swift */,
+				AE529919195E0D3700067AF6 /* LocationManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AE9B04A91958E358009A796A /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B04AA1958E358009A796A /* AvatarPlayground.playground */,
+			);
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		AE9B04AB1958E358009A796A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AE80DBD3195DF00C0002A856 /* WelcomeViewController.swift */,
+				AE9B04DC1958E3B8009A796A /* LostPetsViewController.swift */,
+				AEC14F43195A2D46006937CC /* AddPetRootView.swift */,
+				AE9B04D91958E3B8009A796A /* AddPetViewController.swift */,
+				AE9B04D81958E3B8009A796A /* AvatarButton.swift */,
+				AE9B04DA1958E3B8009A796A /* Colors.swift */,
+				AE9B04DB1958E3B8009A796A /* DisplayablePet.swift */,
+				AE9B04DD1958E3B8009A796A /* PetTableViewCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		AE014ED5195922AC0063DD87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE014EDD195922AC0063DD87 /* PetKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		AE014ED7195922AC0063DD87 /* PetKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE014EF5195922AD0063DD87 /* Build configuration list for PBXNativeTarget "PetKit" */;
+			buildPhases = (
+				AE014ED3195922AC0063DD87 /* Sources */,
+				AE014ED4195922AC0063DD87 /* Frameworks */,
+				AE014ED5195922AC0063DD87 /* Headers */,
+				AE014ED6195922AC0063DD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetKit;
+			productName = PetKit;
+			productReference = AE014ED8195922AC0063DD87 /* PetKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE014EE1195922AC0063DD87 /* PetKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE014EF6195922AD0063DD87 /* Build configuration list for PBXNativeTarget "PetKitTests" */;
+			buildPhases = (
+				AE014EDE195922AC0063DD87 /* Sources */,
+				AE014EDF195922AC0063DD87 /* Frameworks */,
+				AE014EE0195922AC0063DD87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE014EE5195922AD0063DD87 /* PBXTargetDependency */,
+			);
+			name = PetKitTests;
+			productName = PetKitTests;
+			productReference = AE014EE2195922AC0063DD87 /* PetKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AE077EF4195341EF003BFD8C /* FindMyPet */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE077F11195341EF003BFD8C /* Build configuration list for PBXNativeTarget "FindMyPet" */;
@@ -220,6 +458,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				AE014EEC195922AD0063DD87 /* PBXTargetDependency */,
+				AE014EF0195922AD0063DD87 /* PBXTargetDependency */,
 			);
 			name = FindMyPet;
 			productName = FindMyPet;
@@ -238,6 +478,13 @@
 			);
 			dependencies = (
 				AE077F09195341EF003BFD8C /* PBXTargetDependency */,
+				AE6A96D3195B80B400702CE6 /* PBXTargetDependency */,
+				AE6A96D5195B80B400702CE6 /* PBXTargetDependency */,
+				AE6A96DF195CAC2D00702CE6 /* PBXTargetDependency */,
+				AE80DBD6195DF96C0002A856 /* PBXTargetDependency */,
+				AE5299341960E54A00067AF6 /* PBXTargetDependency */,
+				AE5299361960E54A00067AF6 /* PBXTargetDependency */,
+				AE52993B1960E65000067AF6 /* PBXTargetDependency */,
 			);
 			name = FindMyPetTests;
 			productName = FindMyPetTests;
@@ -253,6 +500,13 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Frothy Software";
 				TargetAttributes = {
+					AE014ED7195922AC0063DD87 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AE014EE1195922AC0063DD87 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AE014ED7195922AC0063DD87;
+					};
 					AE077EF4195341EF003BFD8C = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -277,19 +531,35 @@
 			targets = (
 				AE077EF4195341EF003BFD8C /* FindMyPet */,
 				AE077F06195341EF003BFD8C /* FindMyPetTests */,
+				AE014ED7195922AC0063DD87 /* PetKit */,
+				AE014EE1195922AC0063DD87 /* PetKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AE014ED6195922AC0063DD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE014EE0195922AC0063DD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE077EF3195341EF003BFD8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AE53351C1953749600B94202 /* saxophone2.jpg in Resources */,
-				AE854ED01953458700199AE9 /* Main.storyboard in Resources */,
 				AE5335181953749600B94202 /* fido.jpg in Resources */,
 				AE53351A1953749600B94202 /* hissy.jpg in Resources */,
+				AE1AF0B81958D53900D75D99 /* Main.storyboard in Resources */,
 				AE53351B1953749600B94202 /* saxophone.JPG in Resources */,
 				AE5335191953749600B94202 /* giraffe.jpg in Resources */,
 				AE53351D1953749600B94202 /* trix.jpg in Resources */,
@@ -340,25 +610,47 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AE014ED3195922AC0063DD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE014EFA195925CA0063DD87 /* Colors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE014EDE195922AC0063DD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE014EEA195922AD0063DD87 /* PetKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AE077EF1195341EF003BFD8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE53350C19535FB100B94202 /* FakePetsStore.swift in Sources */,
-				AE76044C1954ACB7001AFCE1 /* ObjectsFactory.swift in Sources */,
-				AE077F2819534412003BFD8C /* AppDelegate.swift in Sources */,
-				AE533523195382F800B94202 /* DisplayablePet.swift in Sources */,
-				AE76043E19546F32001AFCE1 /* InMemoryPetsStore.swift in Sources */,
-				AE1946D01954E48900113927 /* PFObjectToPet.swift in Sources */,
-				AE76044A19549141001AFCE1 /* LostPetsAPI.swift in Sources */,
-				AE53351019536B9300B94202 /* FakeLostPetsAPI.swift in Sources */,
-				AE854ED219535DB600199AE9 /* PetTableViewCell.swift in Sources */,
-				AE76044E1954AD80001AFCE1 /* ParseLostPetsAPI.swift in Sources */,
-				AE1946D21954E95F00113927 /* PetDetailsViewController.swift in Sources */,
-				AE077F2919534412003BFD8C /* LostPetsViewController.swift in Sources */,
-				AE76044619548EF4001AFCE1 /* Pet.swift in Sources */,
-				AE76044819548F34001AFCE1 /* ParseFakeData.swift in Sources */,
-				AE76043C19546E0D001AFCE1 /* PetsDataAccess.swift in Sources */,
+				AEC14F44195A2D46006937CC /* AddPetRootView.swift in Sources */,
+				AE6A96D9195B8B0900702CE6 /* PetDataToPFObject.swift in Sources */,
+				AE9B04E01958E3B8009A796A /* Colors.swift in Sources */,
+				AE9B04D31958E388009A796A /* ObjectsFactory.swift in Sources */,
+				AE80DBD4195DF00C0002A856 /* WelcomeViewController.swift in Sources */,
+				AE6A96D0195B7AFB00702CE6 /* PetData.swift in Sources */,
+				AE9B04DE1958E3B8009A796A /* AvatarButton.swift in Sources */,
+				AE9B04D21958E388009A796A /* InMemoryPetsStore.swift in Sources */,
+				AE9B04B91958E358009A796A /* ParseLostPetsAPI.swift in Sources */,
+				AE9B04B81958E358009A796A /* LostPetsAPI.swift in Sources */,
+				AE9B04E21958E3B8009A796A /* LostPetsViewController.swift in Sources */,
+				AE9B04C91958E36E009A796A /* AppDelegate.swift in Sources */,
+				AE6A96DD195BC47E00702CE6 /* CurrentLocationManager.swift in Sources */,
+				AE9B04D61958E388009A796A /* PetsDataAccess.swift in Sources */,
+				AE9B04E11958E3B8009A796A /* DisplayablePet.swift in Sources */,
+				AE6A96DB195BB73000702CE6 /* ParsePetKeys.swift in Sources */,
+				AE9B04DF1958E3B8009A796A /* AddPetViewController.swift in Sources */,
+				AE52991A195E0D3700067AF6 /* LocationManager.swift in Sources */,
+				AE9B04E31958E3B8009A796A /* PetTableViewCell.swift in Sources */,
+				AE9B04D51958E388009A796A /* Pet.swift in Sources */,
+				AE9B04D71958E388009A796A /* PFObjectToPet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,25 +665,141 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AE014EE5195922AD0063DD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE014ED7195922AC0063DD87 /* PetKit */;
+			targetProxy = AE014EE4195922AD0063DD87 /* PBXContainerItemProxy */;
+		};
+		AE014EEC195922AD0063DD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE014ED7195922AC0063DD87 /* PetKit */;
+			targetProxy = AE014EEB195922AD0063DD87 /* PBXContainerItemProxy */;
+		};
+		AE014EF0195922AD0063DD87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE014ED7195922AC0063DD87 /* PetKit */;
+			targetProxy = AE014EEF195922AD0063DD87 /* PBXContainerItemProxy */;
+		};
 		AE077F09195341EF003BFD8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AE077EF4195341EF003BFD8C /* FindMyPet */;
 			targetProxy = AE077F08195341EF003BFD8C /* PBXContainerItemProxy */;
 		};
+		AE5299341960E54A00067AF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE077EF4195341EF003BFD8C /* FindMyPet */;
+			targetProxy = AE5299331960E54A00067AF6 /* PBXContainerItemProxy */;
+		};
+		AE5299361960E54A00067AF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE077EF4195341EF003BFD8C /* FindMyPet */;
+			targetProxy = AE5299351960E54A00067AF6 /* PBXContainerItemProxy */;
+		};
+		AE52993B1960E65000067AF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE077EF4195341EF003BFD8C /* FindMyPet */;
+			targetProxy = AE52993A1960E65000067AF6 /* PBXContainerItemProxy */;
+		};
+		AE6A96D3195B80B400702CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE077EF4195341EF003BFD8C /* FindMyPet */;
+			targetProxy = AE6A96D2195B80B400702CE6 /* PBXContainerItemProxy */;
+		};
+		AE6A96D5195B80B400702CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE077EF4195341EF003BFD8C /* FindMyPet */;
+			targetProxy = AE6A96D4195B80B400702CE6 /* PBXContainerItemProxy */;
+		};
+		AE6A96DF195CAC2D00702CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE077EF4195341EF003BFD8C /* FindMyPet */;
+			targetProxy = AE6A96DE195CAC2D00702CE6 /* PBXContainerItemProxy */;
+		};
+		AE80DBD6195DF96C0002A856 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE077EF4195341EF003BFD8C /* FindMyPet */;
+			targetProxy = AE80DBD5195DF96C0002A856 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		AE854ECE1953458700199AE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE854ECF1953458700199AE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		AE014EF1195922AD0063DD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE014EF2195922AD0063DD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PetKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE014EF3195922AD0063DD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE014EF4195922AD0063DD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		AE077F0F195341EF003BFD8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -512,10 +920,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = FindMyPetTests/Info.plist;
+				INFOPLIST_FILE = Tests/FindMyPetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Source/FindMyPet-Bridging-Header.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -528,10 +937,11 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = FindMyPetTests/Info.plist;
+				INFOPLIST_FILE = Tests/FindMyPetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Source/FindMyPet-Bridging-Header.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -539,6 +949,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AE014EF5195922AD0063DD87 /* Build configuration list for PBXNativeTarget "PetKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE014EF1195922AD0063DD87 /* Debug */,
+				AE014EF2195922AD0063DD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE014EF6195922AD0063DD87 /* Build configuration list for PBXNativeTarget "PetKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE014EF3195922AD0063DD87 /* Debug */,
+				AE014EF4195922AD0063DD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AE077EF0195341EF003BFD8C /* Build configuration list for PBXProject "FindMyPet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
